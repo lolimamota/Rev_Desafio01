@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Mooli&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* font-family: 'Borel', cursive; */
+    font-family: 'Mooli', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    background-color: rgb(249, 216, 249);
+    /* background: linear-gradient(#350C40, #350C40, #200726, #200726,#4A1259, #4A1259, #622773, #622773, #A192A6, #A192A6); */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+a:hover{
+    color: orangered;
+}
+
+
+.kbc{
+    font-family: 'Borel', cursive;
+    font-size: 2rem;
+    height: 6rem;
+    color: white;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.imgPerfil{
+    height: 2rem;
+}
+
+.corpinho{
+    display: flex;
+    width: 100%;
+    /* border: solid black; */
+}
+
+
+.maps{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .mapinha{
+
+    justify-content: space-between;
+} */
+
+p{
+    width: 60%;
+    height: 30vh;
+    /* border: solid purple; */
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 35px;
+}
