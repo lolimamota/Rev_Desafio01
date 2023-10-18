@@ -108,48 +108,53 @@ p {
     margin-top: 2rem;
     color: rgb(54, 2, 54);
     font-size: 1rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
     display: grid;
-    gap: 20rem 15rem;
+    grid-template-columns: repeat(5,1fr);
+    /* gap: 20rem 15rem; */
 }
 
 img{
     border-radius: 50%;
 }
 
-#sempi{
+/* #sempi{
     grid-area: a2;
-}
+    display: flex;
+    flex-direction: column;
+    list-style: decimal-leading-zero;
+} */
 
-#horror{
+/* #horror{
     grid-area: b1;
-}
+} */
 
-#spirit{
+/* #spirit{
     grid-area: b3;
-}
+} */
 
-#amo{
+/* #amo{
     grid-area: c1;
-}
+} */
 
-#hell{
+/* #hell{
     grid-area: c3;
     text-size-adjust: 1rem;
-}
+} */
 
-@media screen and (min-width:1024px){
+/* @media screen and (min-width:1024px){
     .top5{
         grid-template-areas:
         "..a1.."
         ".b1.b3."
         "c1...c3";
     }
-}
+} */
 
-li{
+/* li{
     align-items: center;
     flex-direction: column;
-}
+} */
