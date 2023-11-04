@@ -247,9 +247,21 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    flex-direction: column;
+    height: 20vh;
     background-color: purple;
     text-align: center;
     text-transform: uppercase;
     color: #FFF;
+ }
+ footer div{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ footer div img{
+    margin-top: 1rem;
+    border-radius: 50%;
+    width: 10vh;
  }
