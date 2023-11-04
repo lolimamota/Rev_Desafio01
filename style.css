@@ -236,3 +236,20 @@ span{
     border-radius: 16px;
     border: solid palevioletred;
  }
+
+ .conclusao{
+    font-family: 'Borel', cursive;
+    font-size: 1.5rem;
+    text-align: left;
+ }
+
+ footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: purple;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+ }
